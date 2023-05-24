@@ -1,11 +1,44 @@
 *{
     margin: 0;
+    
+    
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,500;1,700&display=swap');
+.fi-br-menu-burger{
+color: white;
+font-size: 3rem;
+align-items: center;
+}
 
 html{
+    font-family: 'Roboto Mono', monospace;
+
+
     background-color: rgb(24, 0, 46);
 }
-.buttonM{
+.buttonM, .carlao{
+    font-size: 2rem;
+    color: white;
+    border-radius: 1rem;
+    border: 0cap;
+    background-color: transparent;
+}
+.header{
+    background-color: rgb(49, 0, 92);
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.itens{
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+align-content: center;
+}
+.p01{
     
+    color: white;
 }
